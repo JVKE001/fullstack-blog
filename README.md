@@ -59,7 +59,7 @@ fullstack-blog/
 ![Create Post](./screenshots/My-post.png)
 
 ### My Posts
-![My Posts](./screenshots/Edit-posts.png)
+![My Posts](./screenshots/Edit-post.png)
 
 ## Setup (dev)
 ### 1. Clone repo
