@@ -50,16 +50,16 @@ fullstack-blog/
 ## Screenshots
 
 ### Login Page
-![Login Page](./screenshots/login.png)
+![Login Page](./screenshots/Login.png)
 
 ### Home Feed
-![Home Feed](./screenshots/home.png)
+![Home Feed](./screenshots/Home.png)
 
 ### Create Post
-![Create Post](./screenshots/create-post.png)
+![Create Post](./screenshots/My-post.png)
 
 ### My Posts
-![My Posts](./screenshots/my-posts.png)
+![My Posts](./screenshots/Edit-posts.png)
 
 ## Setup (dev)
 ### 1. Clone repo
