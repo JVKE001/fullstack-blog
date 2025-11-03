@@ -47,6 +47,19 @@ fullstack-blog/
 └── package.json                # Optional root-level scripts for both client & server
 ```
 
+## Screenshots
+
+### Login Page
+![Login Page](./screenshots/login.png)
+
+### Home Feed
+![Home Feed](./screenshots/home.png)
+
+### Create Post
+![Create Post](./screenshots/create-post.png)
+
+### My Posts
+![My Posts](./screenshots/my-posts.png)
 
 ## Setup (dev)
 ### 1. Clone repo
