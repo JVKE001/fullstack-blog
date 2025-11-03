@@ -27,7 +27,7 @@ git clone https://github.com/JVKE001/fullstack-blog.git
 cd fullstack-blog
 ```
 
-###2. Install dependencies
+### 2. Install dependencies
 ```bash
 cd server
 npm install
@@ -38,13 +38,13 @@ cd client
 npm install
 ```
 
-###3. Run the server
+### 3. Run the server
 ```bash
 cd server
 nodemon server
 ```
 
-###4. Run the frontend
+### 4. Run the frontend
 ```bash
 cd client
 npm run dev
