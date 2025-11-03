@@ -9,13 +9,52 @@
 
 ## Tech stack
 - Backend: Node.js, Express, MongoDB, Mongoose, bcrypt, jsonwebtoken
-- Frontend: React (create-react-app or Next.js), Axios, Tailwind CSS (optional)
+- Frontend: React, Axios, Tailwind CSS, Daisy UI
 
 ## Repo layout
-(briefly describe client/ and server/)
+fullstack-blog/
+├─ client/     → React frontend (UI)
+├─ server/     → Node.js + Express backend (API)
+├─ .gitignore  → ignores .env, node_modules, build files
+├─ README.md
+├─ LICENSE
+
 
 ## Setup (dev)
 ### 1. Clone repo
 ```bash
-git clone git@github.com:YOUR_USERNAME/fullstack-blog.git
+git clone https://github.com/JVKE001/fullstack-blog.git
 cd fullstack-blog
+```
+
+###2. Install dependencies
+```bash
+cd server
+npm install
+```
+
+```bash
+cd client
+npm install
+```
+
+###3. Run the server
+```bash
+cd server
+nodemon server
+```
+
+###4. Run the frontend
+```bash
+cd client
+npm run dev
+```
+
+---
+
+
+## Author
+
+**JVKE**  
+Full Stack Developer  
+
