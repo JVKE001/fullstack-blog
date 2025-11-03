@@ -13,11 +13,38 @@
 
 ## Repo layout
 fullstack-blog/
-├─ client/     → React frontend (UI)
-├─ server/     → Node.js + Express backend (API)
-├─ .gitignore  → ignores .env, node_modules, build files
-├─ README.md
-├─ LICENSE
+├── client/                     # React frontend (Vite)
+│   ├── public/                 # Static assets (favicon, logo, etc.)
+│   ├── src/
+│   │   ├── components/         # Reusable UI components
+│   │   ├── pages/              # Page-level views (Home, Login etc.)
+│   │   ├── context/            # React Context
+│   │   ├── hooks/              # Custom hooks (e.g., useAuth, useFetch)
+│   │   ├── utils/              # Frontend helpers (formatDate, validators)
+│   │   ├── assets/             # Images, fonts, icons
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   ├── package.json
+│   └── vite.config.js
+│
+├── server/                     # Backend (Express + MongoDB)
+│   ├── database/                 # DB connection, environment setup
+│   │   └── mongodb_config.js
+│   ├── controllers/            # Route handlers (postController, userController)
+│   ├── middleware/             # Auth, error handlers, multer setup
+│   ├── models/                 # Mongoose schemas (User, Post, etc.)
+│   ├── routes/                 # Express route definitions
+│   ├── uploads/                # Uploaded images (should be gitignored)
+│   ├── server.js               # Entry point
+│   ├── package.json
+│   └── .env                    # Environment variables (ignored)
+│
+├── .gitignore                  # Ignore node_modules, .env, dist, uploads
+├── README.md                   # Project documentation
+├── LICENSE                     # License (MIT, etc.)
+└── package.json                # Optional root-level scripts for both client & server
+
 
 
 ## Setup (dev)
