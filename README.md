@@ -12,6 +12,7 @@
 - Frontend: React, Axios, Tailwind CSS, Daisy UI
 
 ## Repo layout
+```
 fullstack-blog/
 ├── client/                     # React frontend (Vite)
 │   ├── public/                 # Static assets (favicon, logo, etc.)
@@ -44,7 +45,7 @@ fullstack-blog/
 ├── README.md                   # Project documentation
 ├── LICENSE                     # License (MIT, etc.)
 └── package.json                # Optional root-level scripts for both client & server
-
+```
 
 
 ## Setup (dev)
